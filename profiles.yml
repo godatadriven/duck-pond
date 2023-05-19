@@ -1,0 +1,9 @@
+duck_pond:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ":memory:"
+      extensions:
+      - httpfs
+      - parquet
